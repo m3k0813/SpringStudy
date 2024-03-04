@@ -1,7 +1,7 @@
 # Spring boot 정리
 
 > 참고 레퍼런스
-> ![점투 푸 스프링 부트](https://wikidocs.net/book/7601)
+> [점프 투 스프링 부트](https://wikidocs.net/book/7601)
 
 
 ---
