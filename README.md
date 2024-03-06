@@ -34,6 +34,10 @@ Entity 클래스는 데이터베이스에 데이터를 저장하고 조회하기
 - @RequiredArgsConstructor - final이 붙은 속성을 포함하는 생성자를 자동으로 만들어주는 역할
 - @PathVariable - {question_id}같은 변하는 id값을 얻기 위해 사용, 파라미터를 매핑
 - @Bean - 스프링에 의해 생성 또는 관리되는 객체를 의미 애너테이션을 통해 자바 코드 내에서 별도로 빈을 정의하고 등록
+- @RestController - @RequestBody와 합쳐짐, JSON형태로 객체를 변환하기 위함
+- @RequestParam - HTTP 요청을 파라미터 이름으로 바인딩
+- @Data: @Getter, @Setter, @ToString, @EqualsAndHashCode, @RequiredArgsConstructor를 적용
+- @ModelAttribute: 객체를 생성하고, 요청 파라미터 값을 자동으로 입력
 
 Model - 자바 클래스와 템플릿 간의 연결고리 역할, 모델 객체의 값을 템플릿에서 그 값을 사용할 수 있다.
 
